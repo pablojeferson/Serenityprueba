@@ -1,0 +1,10 @@
+# Created at 2024-10-19T01:54:30.825
+Boot Manifest-JAR contains absolute paths in classpath 'F:\EGG-SERENITY\Serenityprueba\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
+# Created at 2024-10-19T01:54:30.825
+Boot Manifest-JAR contains absolute paths in classpath 'F:\EGG-SERENITY\Serenityprueba\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

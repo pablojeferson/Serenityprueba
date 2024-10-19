@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: starter.wikipedia.WhenSearchingForTerms
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.857 s <<< FAILURE! -- in starter.wikipedia.WhenSearchingForTerms
+starter.wikipedia.WhenSearchingForTerms.searchBySingleKeyword -- Time elapsed: 7.427 s <<< FAILURE!
+java.lang.AssertionError: 
+Expected: text of element located by #firstHeading that is equal to: <"Swag Labs">
+Actual:   <"Resultados de la búsqueda">
+	at net.serenitybdd.screenplay.ensure.PerformableExpectationsKt.handleException(PerformableExpectations.kt:17)
+	at net.serenitybdd.screenplay.ensure.PerformableExpectationsKt.access$handleException(PerformableExpectations.kt:1)
+	at net.serenitybdd.screenplay.ensure.PerformableExpectation.performAs(PerformableExpectations.kt:54)
+	at net.serenitybdd.screenplay.ensure.PerformableExpectation$ByteBuddy$a2WtcQaC.performAs$accessor$d8JQ9p0s(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:524)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:476)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:218)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:205)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:93)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at net.serenitybdd.screenplay.ensure.PerformableExpectation$ByteBuddy$a2WtcQaC.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:299)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:274)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:215)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:222)
+	at starter.wikipedia.WhenSearchingForTerms.searchBySingleKeyword(WhenSearchingForTerms.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+

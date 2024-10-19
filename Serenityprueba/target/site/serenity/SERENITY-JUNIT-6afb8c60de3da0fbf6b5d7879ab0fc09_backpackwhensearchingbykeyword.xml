@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="starter.SauceDemo.WhenLoggingIN" skipped="0" tests="1" time="7.33" timestamp="2024-10-19 01:54:32"><testcase classname="starter.SauceDemo.WhenLoggingIN" name="Should display sauce labs backpack when searching by keyword"/></testsuite>
